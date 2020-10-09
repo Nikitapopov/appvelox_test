@@ -1,0 +1,197 @@
+@import '../../assets/styles/partial'
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700)
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons)
+
+.calendar
+  width: 573px
+  height: 481px
+  border-radius: 5px
+  background: #EBE7FF
+
+  &__header
+    height: 57px
+    background: $purpleColor
+    border-radius: 5px 5px 0 0
+    display: flex
+    align-items: center
+    justify-content: center
+
+  &__month
+    @extend %nav-font
+    line-height: 16.6px
+    color: white
+    padding: 0 38px
+
+  &__btn
+    padding: 2px
+    cursor: pointer
+
+  &__daysOfWeek
+    display: flex
+    justify-content: space-around
+    align-items: center
+    width: 100%
+    height: 37px
+    font-weight: 300
+    font-size: 14px
+    line-height: 16.6px
+    padding: 0 10px
+
+  &__dayOfWeek
+    //padding:
+
+  &__cells
+    padding: 0 10px
+
+  &__cell
+    padding: 10px
+    width: 79px
+    height: 63px
+    background: white
+    font-weight: 400
+    font-size: 20px
+    line-height: 20px
+    display: flex
+    &_isDisabled
+      color: rgba(0,0,0,0.25)
+      background: inherit
+      pointer-events: none
+    &_isSelected
+      border: 1px red solid
+  &__row
+    display: flex
+
+  &__meetings
+    @extend %nav-font
+    color: white
+    line-height: 22px
+    text-align: center
+    width: 22px
+    height: 22px
+    margin-left: auto
+    margin-top: auto
+    border-radius: 50px
+    background: $blueColor
+
+
+
+
+
+//.row
+//  margin: 0
+//  padding: 0
+//  display: flex
+//  flex-direction: row
+//  flex-wrap: wrap
+//  width: 100%
+//
+//.row-middle
+//  align-items: center
+//
+//.column
+//  flex-grow: 1
+//  flex-basis: 0
+//  max-width: 100%
+//
+///* Calendar */
+//.calendar
+//  display: block
+//  position: relative
+//  width: 90%
+//  background: white
+//  border: 1px solid lightgray
+//  height: auto
+//  margin: 0 auto
+//
+//.calendar .header
+//  text-transform: uppercase
+//  font-weight: 700
+//  font-size: 115%
+//  padding: 1.5em 0
+//  border-bottom: 1px solid lightgray
+//
+//.calendar .header .icon
+//  cursor: pointer
+//  transition: .15s ease-out
+//
+//.calendar .header .icon:hover
+//  transform: scale(1.75)
+//  transition: .25s ease-out
+//  color: dodgerblue
+//
+//.calendar .header .icon:first-of-type
+//  margin-left: 1em
+//
+//.calendar .header .icon:last-of-type
+//  margin-right: 1em
+//
+//.calendar .days
+//  text-transform: uppercase
+//  font-weight: 400
+//  color: gray
+//  font-size: 70%
+//  padding: .75em 0
+//  border-bottom: 1px solid lightgray
+//
+//.calendar .body .cell
+//  position: relative
+//  height: 6em
+//  border-right: 1px solid lightgray
+//  overflow: hidden
+//  cursor: pointer
+//  background: white
+//  transition: 0.25s ease-out
+//
+//.calendar .body .cell:hover
+//  background: whitesmoke
+//  transition: 0.5s ease-out
+//
+//.calendar .body .selected
+//  border-left: 10px solid transparent
+//  border-image: linear-gradient(45deg, #1affa0 0%,#cff153 40%)
+//  border-image-slice: 1
+//
+//.calendar .body .row
+//  border-bottom: 1px solid lightgray
+//
+//.calendar .body .row:last-child
+//  border-bottom: none
+//
+//.calendar .body .cell:last-child
+//  border-right: none
+//
+//.calendar .body .cell .number
+//  position: absolute
+//  font-size: 82.5%
+//  line-height: 1
+//  top: .75em
+//  right: .75em
+//  font-weight: 700
+//
+//.calendar .body .cell:hover .number, .calendar .body .selected .number
+//  visibility: hidden
+//
+//.calendar .body .disabled
+//  color: lightgray
+//  pointer-events: none
+//
+//.calendar .body .cell .bg
+//  font-weight: 700
+//  line-height: 1
+//  color: #1affa0
+//  opacity: 0
+//  font-size: 5em
+//  position: absolute
+//  top: -.2em
+//  right: -.05em
+//  transition: .25s ease-out
+//  letter-spacing: -.07em
+//
+//.calendar .body .cell:hover .bg, .calendar .body .selected .bg
+//  opacity: 0.2
+//  transition: .5s ease-in
+//
+//.calendar .body .column
+//  flex-grow: 0
+//  flex-basis: calc(100%/7)
+//  width: calc(100%/7)

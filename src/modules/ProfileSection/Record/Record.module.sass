@@ -1,0 +1,44 @@
+@import '../../../assets/styles/partial'
+
+.record
+  padding: 20px
+  height: 174px
+  max-width: 475px
+  min-width: 450px
+  display: flex
+
+  &__info
+
+  &__date
+    font-weight: 500
+    font-size: 16px
+    padding-bottom: 5px
+
+  &__clinic
+    font-weight: 300
+    font-size: 14px
+    line-height: 20px
+    padding-bottom: 8px
+
+  &__btnBox
+    display: flex
+    align-items: flex-end
+
+  &__btn
+    width: 98px
+
+.doctor
+  display: flex
+  align-items: center
+  &__photo
+    border-radius: 50px
+    margin-right: 9px
+
+  &__name
+    @extend %btn-font
+    padding-bottom: 4px
+
+  &__specialization
+    @extend %nav-font
+    color: #EBE7FF
+

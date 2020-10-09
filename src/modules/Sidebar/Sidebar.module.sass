@@ -1,0 +1,58 @@
+@import '../../assets/styles/partial'
+
+.sidebar
+  background: $navyColor
+  width: 190px
+  display: flex
+  flex-direction: column
+
+  a
+    color: white
+
+  &__link
+    @extend %nav-font
+    color: white
+    padding: 15px 20px
+    display: flex
+    align-items: center
+    margin-bottom: 10px
+
+    &_isActive
+      background: white
+      border-left: 2.5px solid $purpleColor
+      padding-left: 17.5px
+      color: $purpleColor !important
+
+    svg
+      margin-right: 14px
+
+  &__btnBox
+    display: flex
+    justify-content: center
+
+  &__btn
+    margin: 0 20px
+    width: 100%
+
+.footer
+  color: white
+  display: flex
+  flex-direction: column
+  justify-content: flex-end
+  height: 100%
+
+  &__help
+    display: flex
+    align-items: center
+    width: 100%
+    padding: 14px 20px
+
+  &__help a
+    @extend %nav-font
+    padding-left: 14px
+    color: white
+    text-decoration: none
+
+  &__logo
+    width: 113px
+    padding: 4px 0 16px 20px

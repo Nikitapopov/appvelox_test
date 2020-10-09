@@ -1,0 +1,66 @@
+@import '../../assets/styles/partial'
+
+.header
+  display: flex
+  height: 55px
+  color: white
+  background: $blueColor
+  width: 100%
+
+  &__logo
+    width: 190px
+    padding: 20px
+    background: $navyColor
+
+  &__title
+    @extend %title-font
+    padding: 12px 0px 10px 40px
+    color: white
+
+  &__menu
+    display: flex
+    //justify-content: center
+    align-items: center
+    margin-left: auto
+    padding-right: 26px
+
+  &__btn
+    //display: flex
+    //justify-content: center
+    //align-content: center
+    background: inherit
+    height: 18px
+    margin-right: 20px
+    border: 0
+    cursor: pointer
+
+  &__btn:focus
+    outline: none
+
+  &__avatar
+    position: relative
+    margin: 0 2px
+
+  &__avatar img
+    border-radius: 50px
+
+  &__avatar:after
+    content: ''
+    position: absolute
+    top: -2px
+    right: -2px
+    width: 49px
+    height: 49px
+    //background: url('./type4.svg')
+    background: url("../../assets/img/icons/white_round_border.svg")
+
+  &__extandBtn
+    width: 16px
+    height: 16px
+    border-radius: 5px
+    background: white
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-left: 7px
+

@@ -1,0 +1,82 @@
+@import '../../assets/styles/partial'
+
+.profile
+  padding: 0 60px 0 20px
+  width: 1176px
+  //float: left
+
+  &__records
+    display: flex
+    justify-content: space-between
+    padding-bottom: 35px
+
+  &__detailed
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 95px
+    a
+      text-decoration: underline
+
+    p
+      @extend %nav-font
+      text-align: center
+      line-height: 20px
+
+.electronicCards
+  display: flex
+  flex-wrap: wrap
+  margin-bottom: 25px
+
+.electronicCard
+  margin-bottom: 15px
+  height: 183px
+  width: 540px
+
+.electronicCard:nth-child(2n+1)
+  margin-right: 16px
+
+.card
+  display: flex
+  height: 183px
+  width: 540px
+
+  &_isMarked
+    border: 2px solid #50CAFF
+
+  &__logo
+    display: flex
+    //align-items: center
+    justify-content: center
+    height: 100%
+    width: 133px
+
+    &_isMarked
+      background: $blueColor
+
+  &__content
+    padding: 20px 36px
+
+  &__title
+    font-weight: 400
+    font-size: 28px
+    line-height: 33px
+    padding-bottom: 10px
+    margin-bottom: 15px
+    border-bottom: 2px solid #ebe7ff
+
+    &_isMarked
+      border-bottom: 2px solid $blueColor
+
+
+  &__point
+    @extend %subtitle-font
+    line-height: 24px
+    margin-bottom: 7px
+    color: $blueColor
+    span
+      color: black
+
+  &__description
+    @extend %subtitle-font
+    line-height: 24px
