@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/appvelox_test/static/css/main.f6b1e39c.chunk.css",
+    "main.js": "/appvelox_test/static/js/main.8dcf291a.chunk.js",
+    "main.js.map": "/appvelox_test/static/js/main.8dcf291a.chunk.js.map",
+    "runtime-main.js": "/appvelox_test/static/js/runtime-main.b81f02c8.js",
+    "runtime-main.js.map": "/appvelox_test/static/js/runtime-main.b81f02c8.js.map",
+    "static/css/2.1ce32a85.chunk.css": "/appvelox_test/static/css/2.1ce32a85.chunk.css",
+    "static/js/2.eb641284.chunk.js": "/appvelox_test/static/js/2.eb641284.chunk.js",
+    "static/js/2.eb641284.chunk.js.map": "/appvelox_test/static/js/2.eb641284.chunk.js.map",
+    "index.html": "/appvelox_test/index.html",
+    "precache-manifest.6415a0f1a5687cfc32e079791a2c208d.js": "/appvelox_test/precache-manifest.6415a0f1a5687cfc32e079791a2c208d.js",
+    "service-worker.js": "/appvelox_test/service-worker.js",
+    "static/css/2.1ce32a85.chunk.css.map": "/appvelox_test/static/css/2.1ce32a85.chunk.css.map",
+    "static/css/main.f6b1e39c.chunk.css.map": "/appvelox_test/static/css/main.f6b1e39c.chunk.css.map",
+    "static/js/2.eb641284.chunk.js.LICENSE.txt": "/appvelox_test/static/js/2.eb641284.chunk.js.LICENSE.txt",
+    "static/media/1.svg": "/appvelox_test/static/media/1.74d63de9.svg",
+    "static/media/2.svg": "/appvelox_test/static/media/2.6e80e35d.svg",
+    "static/media/index.sass": "/appvelox_test/static/media/Rubik-Regular.b805b7ab.ttf",
+    "static/media/addInfo.svg": "/appvelox_test/static/media/addInfo.6092e659.svg",
+    "static/media/analysisResult.svg": "/appvelox_test/static/media/analysisResult.7f1d6224.svg",
+    "static/media/appvelox.svg": "/appvelox_test/static/media/appvelox.6679c2a3.svg",
+    "static/media/arrow_back.svg": "/appvelox_test/static/media/arrow_back.bafa50c1.svg",
+    "static/media/arrow_forward.svg": "/appvelox_test/static/media/arrow_forward.129d6ec5.svg",
+    "static/media/avatar.svg": "/appvelox_test/static/media/avatar.f18a8fa2.svg",
+    "static/media/extand_btn.svg": "/appvelox_test/static/media/extand_btn.cd735981.svg",
+    "static/media/help.svg": "/appvelox_test/static/media/help.30dc739d.svg",
+    "static/media/left_arrow.svg": "/appvelox_test/static/media/left_arrow.4df0ff30.svg",
+    "static/media/meetingHistory.svg": "/appvelox_test/static/media/meetingHistory.bcbe03ba.svg",
+    "static/media/notification.svg": "/appvelox_test/static/media/notification.2091252f.svg",
+    "static/media/patientInfo.svg": "/appvelox_test/static/media/patientInfo.0e8f2eb0.svg",
+    "static/media/search.svg": "/appvelox_test/static/media/search.a6431a32.svg",
+    "static/media/visually_impaired_mode.svg": "/appvelox_test/static/media/visually_impaired_mode.f1412712.svg",
+    "static/media/Header.module.sass": "/appvelox_test/static/media/white_round_border.c2a58d06.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b81f02c8.js",
+    "static/css/2.1ce32a85.chunk.css",
+    "static/js/2.eb641284.chunk.js",
+    "static/css/main.f6b1e39c.chunk.css",
+    "static/js/main.8dcf291a.chunk.js"
+  ]
+}
